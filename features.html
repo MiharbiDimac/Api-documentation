@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+ <meta charset="UTF-8">
+ <meta http-equiv="X-UA-Compatible" content="IE=edge">
+ <meta name="viewport" content="width=device-width, initial-scale=1.0">
+ <title>Employee</title>
+ <link rel="stylesheet" href="style.css">
+ <link rel="stylesheet" href="icon.css">
+ <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-KK94CHFLLe+nY2dmCWGMq91rCGa5gtU4mk92HdvYe+M/SXH301p5ILy+dN9+nJOZ" crossorigin="anonymous">
+</head>
+
+<body class="container-fluid">
+  <header class="row">
+    <top-main class="col-lg-12 p-2 border">
+      <div class="rounded-pill bg-primary text-light text-center mx-5 my-2 p-1"><h1>Employee Monitoring System</h1></div>
+    </top-main>
+  </header>
+    <main class="row">
+      <left-side class="col-lg-2 border">
+        <div class="row">
+          <div class="row mx-1">
+            <a href="index.html" class="rounded-pill btn btn-primary my-3">Introduction</a>
+            <a href="features.html" class="rounded-pill btn btn-primary my-3">Features</a>
+            <a href="#" class="rounded-pill btn btn-primary my-3">Button 3</a>
+            <a href="#" class="rounded-pill btn btn-primary my-3">Button 4</a>
+            <a href="#" class="rounded-pill btn btn-primary my-3">Button 5</a>
+          </div>
+        </div>
+      </left-side>
+      <right-side class="col-lg-10 p-3 border">
+        <right-main>
+        <h3>Features</h3>
+        <br>
+        <h5>1. User Management System:</h5>
+        <ul>
+          <li>Handles user authentication and authorization.</li>
+          <li>Manages user registration, login, and profile management.</li>
+          <li>Provides endpoints for user role management and access control.</li>
+        </ul>
+        <br>
+        <h5>2. Attendance Tracking System:</h5>
+        <ul>
+          <li>Manages the tracking of employee attendance.</li>
+          <li>Provides endpoints for employees to clock in and clock out.</li>
+          <li>Supports real-time attendance data retrieval and reporting.</li>
+        </ul>
+        <br>
+        <h5>3. Reporting and Analytics System:</h5>
+        <ul>
+          <li>Generates attendance reports and analytics.</li>
+          <li>Provides endpoints to retrieve attendance summaries, employee attendance history, and relevant metrics.</li>
+          <li>Supports data filtering and aggregation options.</li>
+        </ul>
+        <br>
+        <br>
+        <h4>Architecture Overview:</h4>
+        <ul>
+          <li>Each system will have its own set of controllers, models, and services.</li>
+          <li>The Lumen framework will handle the routing, request handling, and response generation.</li>
+          <li>The systems can communicate with each other via API calls or through event-driven mechanisms.</li>
+          <li>The systems can share a common database or have separate databases, depending on the requirements.</li>
+          <li>A separate authentication layer, such as OAuth2 or JWT, can be implemented to secure the API endpoints.</li>
+          <li>The systems can be deployed on separate servers or containers, allowing for scalability and independent management.</li>
+        </ul>
+        </right-main>
+      </right-side>
+    </main>
+  <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.7/dist/umd/popper.min.js" integrity="sha384-zYPOMqeu1DAVkHiLqWBUTcbYfZ8osu1Nd6Z89ify25QV9guujx43ITvfi12/QExE" crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/js/bootstrap.min.js" integrity="sha384-Y4oOpwW3duJdCWv5ly8SCFYWqFDsfob/3GkgExXKV4idmbt98QcxXYs9UoXAB7BZ" crossorigin="anonymous"></script>
+  <script src="https://kit.fontawesome.com/bf1c643ee2.js" crossorigin="anonymous"></script>
+</body>
+
+</html>

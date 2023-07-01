@@ -1,0 +1,21 @@
+header{
+    position: sticky;
+    top: 0px;
+}
+
+top-main{
+    background-color: rgb(185, 185, 185);
+    height:15vh;
+}
+
+left-side{
+    background-color: rgb(185, 185, 185);
+    height:85vh;
+    position: sticky;
+    top: 15vh;
+    
+}
+
+right-side{
+    background-color: white;
+}
